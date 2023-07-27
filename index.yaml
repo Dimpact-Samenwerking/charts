@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  openforms:
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2023-07-27T18:27:32.74644885Z"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - redis
+      version: 17.3.14
+    description: Snel en eenvoudig slimme formulieren bouwen en publiceren
+    digest: 15e06abca1b5477c47ad3a7ab6bdb9cc65aa81e6936e87d4e4227699fcbf706e
+    name: openforms
+    type: application
+    urls:
+    - https://github.com/Dimpact-Samenwerking/charts/releases/download/openforms-1.2.1/openforms-1.2.1.tgz
+    version: 1.2.1
+generated: "2023-07-27T18:27:32.74646045Z"
